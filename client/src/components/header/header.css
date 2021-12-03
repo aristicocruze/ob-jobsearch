@@ -1,0 +1,37 @@
+.container {
+  background-color: #14132f;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.homepage {
+  color: #fff;
+  margin-left: 16px;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.logo {
+  flex: 1;
+}
+
+.create-post {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  font-size: 25px;
+  font-weight: 700;
+  cursor: pointer;
+  color: #168345;
+
+  position: absolute;
+  right: 0;
+  margin-right: 100px;
+  padding-top: 25px;
+}
